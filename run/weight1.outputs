@@ -1,0 +1,95 @@
+iteration = 0 | loss = 0.677267 
+iteration = 5 | loss = 0.597631 
+iteration = 10 | loss = 0.528489 
+iteration = 15 | loss = 0.507641 
+iteration = 20 | loss = 0.408559 
+iteration = 25 | loss = 0.365878 
+iteration = 30 | loss = 0.333532 
+iteration = 35 | loss = 0.298177 
+iteration = 40 | loss = 0.256631 
+iteration = 45 | loss = 0.250255 
+iteration = 50 | loss = 0.218033 
+iteration = 55 | loss = 0.210082 
+iteration = 60 | loss = 0.200387 
+iteration = 65 | loss = 0.206695 
+iteration = 70 | loss = 0.220176 
+iteration = 75 | loss = 0.145095 
+iteration = 80 | loss = 0.160141 
+iteration = 85 | loss = 0.226356 
+iteration = 90 | loss = 0.175569 
+iteration = 95 | loss = 0.131940 
+iteration = 100 | loss = 0.156693 
+iteration = 105 | loss = 0.206069 
+iteration = 110 | loss = 0.152948 
+iteration = 115 | loss = 0.151763 
+iteration = 120 | loss = 0.133326 
+iteration = 125 | loss = 0.179185 
+iteration = 130 | loss = 0.186085 
+iteration = 135 | loss = 0.147671 
+iteration = 140 | loss = 0.125347 
+iteration = 145 | loss = 0.161729 
+iteration = 150 | loss = 0.180937 
+iteration = 155 | loss = 0.130716 
+iteration = 160 | loss = 0.173945 
+iteration = 165 | loss = 0.152542 
+iteration = 170 | loss = 0.103293 
+iteration = 175 | loss = 0.159317 
+iteration = 180 | loss = 0.145602 
+iteration = 185 | loss = 0.125389 
+iteration = 0 | loss = 0.159388 
+iteration = 5 | loss = 0.125368 
+iteration = 10 | loss = 0.125645 
+iteration = 15 | loss = 0.084493 
+iteration = 20 | loss = 0.145257 
+iteration = 25 | loss = 0.093541 
+iteration = 30 | loss = 0.154437 
+iteration = 35 | loss = 0.167570 
+iteration = 40 | loss = 0.142981 
+iteration = 45 | loss = 0.141169 
+iteration = 50 | loss = 0.118073 
+iteration = 55 | loss = 0.128679 
+iteration = 60 | loss = 0.122416 
+iteration = 65 | loss = 0.124926 
+iteration = 70 | loss = 0.065500 
+iteration = 75 | loss = 0.124772 
+iteration = 80 | loss = 0.156334 
+iteration = 85 | loss = 0.161705 
+iteration = 90 | loss = 0.145574 
+iteration = 95 | loss = 0.155318 
+iteration = 100 | loss = 0.150712 
+iteration = 105 | loss = 0.145220 
+iteration = 110 | loss = 0.136799 
+Traceback (most recent call last):
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 761, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/multiprocessing/connection.py", line 911, in wait
+    ready = selector.select(timeout)
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/selectors.py", line 376, in select
+    fd_event_list = self._poll.poll(timeout)
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 54458) is killed by signal: Killed. 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "boundary_discovery.py", line 85, in <module>
+    train_wbd.train(model,train_loader,val_loader,args)
+  File "/tudelft.net/staff-bulk/ewi/insy/MMC/xinsheng/code/Unitdiscovery/Word-boundary-discovery/step/train_wbd.py", line 47, in train
+    for i, (audio,target,mask,length) in enumerate(train_loader):
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 345, in __next__
+    data = self._next_data()
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 841, in _next_data
+    idx, data = self._get_data()
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 808, in _get_data
+    success, data = self._try_get_data()
+  File "/scratch/xinshengwang/software/anaconda3/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 774, in _try_get_data
+    raise RuntimeError('DataLoader worker (pid(s) {}) exited unexpectedly'.format(pids_str))
+RuntimeError: DataLoader worker (pid(s) 54458) exited unexpectedly
+slurmstepd: error: Detected 1 oom-kill event(s) in step 5392994.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

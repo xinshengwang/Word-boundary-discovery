@@ -1,0 +1,104 @@
+iteration = 0 | loss = 0.823722 
+iteration = 100 | loss = 0.390753 
+iteration = 200 | loss = 0.363492 
+iteration = 300 | loss = 0.460570 
+iteration = 400 | loss = 0.228365 
+iteration = 500 | loss = 0.338842 
+iteration = 600 | loss = 0.250257 
+iteration = 700 | loss = 0.258222 
+iteration = 800 | loss = 0.345083 
+iteration = 900 | loss = 0.366775 
+iteration = 1000 | loss = 0.329494 
+iteration = 1100 | loss = 0.322892 
+iteration = 1200 | loss = 0.285588 
+iteration = 1300 | loss = 0.224488 
+iteration = 1400 | loss = 0.292236 
+iteration = 1500 | loss = 0.282950 
+epoch 1 | loss 0.29 | Recall 68.62% | Precision 67.04% | F1 67.82%
+
+iteration = 0 | loss = 0.308129 
+iteration = 100 | loss = 0.249181 
+iteration = 200 | loss = 0.151456 
+iteration = 300 | loss = 0.214058 
+iteration = 400 | loss = 0.264537 
+iteration = 500 | loss = 0.225405 
+iteration = 600 | loss = 0.159827 
+iteration = 700 | loss = 0.277626 
+iteration = 800 | loss = 0.220037 
+iteration = 900 | loss = 0.305115 
+iteration = 1000 | loss = 0.277028 
+iteration = 1100 | loss = 0.206103 
+iteration = 1200 | loss = 0.277796 
+iteration = 1300 | loss = 0.206941 
+iteration = 1400 | loss = 0.288613 
+iteration = 1500 | loss = 0.267390 
+epoch 2 | loss 0.32 | Recall 72.47% | Precision 71.35% | F1 71.91%
+
+iteration = 0 | loss = 0.277235 
+iteration = 100 | loss = 0.229947 
+iteration = 200 | loss = 0.232490 
+iteration = 300 | loss = 0.270018 
+iteration = 400 | loss = 0.291735 
+iteration = 500 | loss = 0.273053 
+iteration = 600 | loss = 0.211294 
+iteration = 700 | loss = 0.241583 
+iteration = 800 | loss = 0.121721 
+iteration = 900 | loss = 0.241820 
+iteration = 1000 | loss = 0.208759 
+iteration = 1100 | loss = 0.259455 
+iteration = 1200 | loss = 0.197005 
+iteration = 1300 | loss = 0.173144 
+iteration = 1400 | loss = 0.316357 
+iteration = 1500 | loss = 0.227759 
+epoch 3 | loss 0.19 | Recall 74.98% | Precision 71.67% | F1 73.29%
+
+iteration = 0 | loss = 0.226736 
+iteration = 100 | loss = 0.262433 
+iteration = 200 | loss = 0.238832 
+iteration = 300 | loss = 0.244612 
+iteration = 400 | loss = 0.192030 
+iteration = 500 | loss = 0.152581 
+iteration = 600 | loss = 0.295450 
+iteration = 700 | loss = 0.245108 
+iteration = 800 | loss = 0.269792 
+iteration = 900 | loss = 0.191695 
+iteration = 1000 | loss = 0.289842 
+iteration = 1100 | loss = 0.258138 
+iteration = 1200 | loss = 0.265804 
+iteration = 1300 | loss = 0.274686 
+iteration = 1400 | loss = 0.246674 
+iteration = 1500 | loss = 0.247813 
+epoch 4 | loss 0.33 | Recall 60.83% | Precision 67.75% | F1 64.10%
+
+iteration = 0 | loss = 0.259169 
+iteration = 100 | loss = 0.272500 
+iteration = 200 | loss = 0.217919 
+iteration = 300 | loss = 0.230905 
+iteration = 400 | loss = 0.125846 
+iteration = 500 | loss = 0.226078 
+iteration = 600 | loss = 0.214234 
+iteration = 700 | loss = 0.230749 
+iteration = 800 | loss = 0.220365 
+iteration = 900 | loss = 0.268728 
+iteration = 1000 | loss = 0.212993 
+iteration = 1100 | loss = 0.199022 
+iteration = 1200 | loss = 0.189885 
+iteration = 1300 | loss = 0.236927 
+iteration = 1400 | loss = 0.275544 
+iteration = 1500 | loss = 0.157978 
+epoch 5 | loss 0.17 | Recall 76.21% | Precision 74.70% | F1 75.45%
+
+iteration = 0 | loss = 0.271376 
+iteration = 100 | loss = 0.291405 
+iteration = 200 | loss = 0.277288 
+iteration = 300 | loss = 0.233106 
+iteration = 400 | loss = 0.228222 
+iteration = 500 | loss = 0.250046 
+iteration = 600 | loss = 0.236951 
+iteration = 700 | loss = 0.240990 
+iteration = 800 | loss = 0.178586 
+iteration = 900 | loss = 0.277623 
+iteration = 1000 | loss = 0.202736 
+iteration = 1100 | loss = 0.200318 
+slurmstepd: error: *** STEP 5427785.0 ON insy5 CANCELLED AT 2020-07-18T16:28:25 DUE TO TIME LIMIT ***
+iteration = 1200 | loss = 0.190807 
